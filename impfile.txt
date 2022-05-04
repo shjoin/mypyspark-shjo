@@ -1,0 +1,186 @@
+pip3 install --upgrade pip
+
+shjoin2@cloudshell:~ (fifth-honor-346418)$ pip3 --version
+pip 22.0.4 from /home/shjoin2/.local/lib/python3.9/site-packages/pip (python 3.9)
+
+
+pip list
+
+pip3 install -r requirements.txt
+
+pip install --upgrade pandas
+
+shjoin2@cloudshell:~ (fifth-honor-346418)$ pip3 install --upgrade pandas
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pandas
+  Downloading pandas-1.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.7/11.7 MB 52.4 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.18.5 in /usr/local/lib/python3.9/dist-packages (from pandas) (1.22.3)
+Requirement already satisfied: python-dateutil>=2.8.1 in /usr/local/lib/python3.9/dist-packages (from pandas) (2.8.2)
+Collecting pytz>=2020.1
+  Downloading pytz-2022.1-py2.py3-none-any.whl (503 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 503.5/503.5 KB 38.3 MB/s eta 0:00:00
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.9/dist-packages (from python-dateutil>=2.8.1->pandas) (1.16.0)
+Installing collected packages: pytz, pandas
+Successfully installed pandas-1.4.2 pytz-2022.1
+
+shjoin2@cloudshell:~ (fifth-honor-346418)$ pip list
+********************************************************************************
+Python 2 is deprecated. Upgrade to pip3 as soon as possible.
+See https://cloud.google.com/python/docs/python2-sunset
+
+Cloud Shell will soon default to Python 3.
+
+shjoin2@cloudshell:~ (fifth-honor-346418)$ pip3 list
+Package                               Version
+------------------------------------- -------------------
+absl-py                               1.0.0
+asgiref                               3.5.0
+astroid                               2.11.3
+asttokens                             2.0.5
+astunparse                            1.6.3
+attrs                                 21.4.0
+autopep8                              1.5.5
+backcall                              0.2.0
+bleach                                5.0.0
+cachetools                            5.0.0
+certifi                               2021.10.8
+cffi                                  1.15.0
+charset-normalizer                    2.0.12
+click                                 8.1.2
+cryptography                          37.0.0
+dbus-python                           1.2.16
+decorator                             5.1.1
+dill                                  0.3.4
+distlib                               0.3.4
+Django                                4.0.4
+executing                             0.8.3
+filelock                              3.6.0
+flake8                                3.8.4
+Flask                                 2.1.1
+Flask-PyMongo                         2.3.0
+flatbuffers                           2.0
+gast                                  0.5.3
+gce-v2v                               0.0.0
+google-api-core                       2.7.2
+google-api-python-client              2.46.0
+google-auth                           2.6.6
+google-auth-httplib2                  0.1.0
+google-auth-oauthlib                  0.4.6
+google-cloud-appengine-logging        1.1.1
+google-cloud-audit-log                0.2.0
+google-cloud-bigquery                 3.0.1
+google-cloud-bigquery-storage         2.13.1
+google-cloud-core                     2.3.0
+google-cloud-datastore                2.5.1
+google-cloud-language                 2.4.1
+google-cloud-logging                  3.0.0
+google-cloud-spanner                  3.14.0
+google-cloud-storage                  2.3.0
+google-cloud-translate                3.7.2
+google-cloud-videointelligence        2.6.1
+google-cloud-vision                   2.7.2
+google-crc32c                         1.3.0
+google-pasta                          0.2.0
+google-resumable-media                2.3.2
+googleapis-common-protos              1.56.0
+grpc-google-iam-v1                    0.12.4
+grpcio                                1.44.0
+grpcio-status                         1.44.0
+h5py                                  3.6.0
+httplib2                              0.20.4
+idna                                  3.3
+importlib-metadata                    4.11.3
+ipython                               8.2.0
+isort                                 5.10.1
+itsdangerous                          2.1.2
+jedi                                  0.17.0
+jeepney                               0.8.0
+Jinja2                                3.1.1
+jsonschema                            4.4.0
+keras                                 2.8.0
+Keras-Preprocessing                   1.1.2
+keyring                               23.5.0
+keyrings.google-artifactregistry-auth 1.0.0
+lazy-object-proxy                     1.7.1
+libclang                              14.0.1
+Markdown                              3.3.6
+MarkupSafe                            2.1.1
+matplotlib-inline                     0.1.3
+mccabe                                0.6.1
+mercurial                             5.6.1
+mypy                                  0.942
+mypy-extensions                       0.4.3
+numpy                                 1.22.3
+oauth2client                          4.1.3
+oauthlib                              3.2.0
+opt-einsum                            3.3.0
+packaging                             21.3
+pandas                                1.4.2
+parso                                 0.8.3
+pexpect                               4.8.0
+pickleshare                           0.7.5
+pip                                   20.3.4
+platformdirs                          2.5.2
+pluggy                                1.0.0
+prompt-toolkit                        3.0.29
+proto-plus                            1.20.3
+protobuf                              3.20.1
+psycopg2                              2.9.3
+ptyprocess                            0.7.0
+pure-eval                             0.2.2
+pyarrow                               7.0.0
+pyasn1                                0.4.8
+pyasn1-modules                        0.2.8
+pycodestyle                           2.6.0
+pycparser                             2.21
+pycurl                                7.43.0.6
+pydocstyle                            6.1.1
+pyflakes                              2.2.0
+Pygments                              2.12.0
+PyGObject                             3.38.0
+pylint                                2.13.7
+pyls-mypy                             0.1.8
+pymongo                               4.1.1
+pyparsing                             3.0.8
+pyrsistent                            0.18.1
+python-apt                            2.2.1
+python-dateutil                       2.8.2
+python-jsonrpc-server                 0.4.0
+python-language-server                0.35.1
+pytz                                  2022.1
+PyYAML                                6.0
+requests                              2.27.1
+requests-oauthlib                     1.3.1
+rope                                  1.0.0
+rsa                                   4.8
+SecretStorage                         3.3.2
+setuptools                            52.0.0
+six                                   1.16.0
+snowballstemmer                       2.2.0
+sqlparse                              0.4.2
+stack-data                            0.2.0
+supervisor                            4.2.2
+tensorboard                           2.8.0
+tensorboard-data-server               0.6.1
+tensorboard-plugin-wit                1.8.1
+tensorflow                            2.8.0
+tensorflow-io-gcs-filesystem          0.25.0
+termcolor                             1.1.0
+tf-estimator-nightly                  2.8.0.dev2021122109
+toml                                  0.10.2
+tomli                                 2.0.1
+traitlets                             5.1.1
+typing_extensions                     4.2.0
+ujson                                 5.2.0
+uritemplate                           4.1.1
+urllib3                               1.26.9
+virtualenv                            20.14.1
+wcwidth                               0.2.5
+webencodings                          0.5.1
+Werkzeug                              2.1.1
+wheel                                 0.34.2
+wrapt                                 1.14.0
+yapf                                  0.32.0
+zipp                                  3.8.0
+shjoin2@cloudshell:~ (fifth-honor-346418)$
