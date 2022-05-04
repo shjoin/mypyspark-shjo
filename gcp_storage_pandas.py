@@ -11,7 +11,7 @@ print("FIle read")
 #pd_df.head()
 
 #new_pd_df=pd_df.where(pd_df["Age"] < 40).groupby (['Country'])['Country'].count()
-new_pd_df=pd_df.where(pd_df["Age"] < 40).groupby (['Country'])['Age'].aggregate(['min','max'])
+#new_pd_df=pd_df.where(pd_df["Age"] < 40).groupby (['Country'])['Age'].aggregate(['min','max'])
 new_pd_df=pd_df.where(pd_df["Age"] < 40).groupby (['Country']).aggregate({'name':'count','Age':['min','max']})
 
 print("Aggregated")
